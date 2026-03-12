@@ -1,0 +1,43 @@
+/* ─────────────────────────────────────────
+   App.css
+   Custom styles yang tidak bisa dilakukan
+   langsung dengan Tailwind utility class
+───────────────────────────────────────── */
+
+/* Smooth scrollbar (opsional, hanya Chrome/Edge) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F0E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8972E;
+  border-radius: 3px;
+}
+
+/* Floating label — override jika perlu tambahan style */
+.floating-label input:focus ~ label,
+.floating-label input:not(:placeholder-shown) ~ label {
+  font-size: 0.7rem;
+  top: -1rem;
+  color: #B8972E;
+}
+
+/* Gold underline hover effect untuk link */
+.link-gold {
+  position: relative;
+}
+.link-gold::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: #B8972E;
+  transition: width 0.3s ease;
+}
+.link-gold:hover::after {
+  width: 100%;
+}
