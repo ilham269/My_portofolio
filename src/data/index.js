@@ -30,5 +30,5 @@ export const CONTACT_INFOS = [
   { label: 'Email',    value: 'ilhm282@gmail.com',       href: 'mailto:ilhm282@gmail.com'    },
   { label: 'LinkedIn', value: 'linkedin.com/in/muhamad_ilham', href: 'https://linkedin.com'         },
   { label: 'GitHub',   value: 'github.com/ilham269',      href: 'https://github.com/ilham269' },
-  { label: 'Instagram',   value: ' instagram.com/mhmdhamm_26',      href: 'https://instagram.com/mhmdhamm_26' },
+  { label: 'Instagram',   value: ' instagram.com/mhmdhamm_26',      href: 'https://www.instagram.com/mhmdhamm_26/' },
 ]
